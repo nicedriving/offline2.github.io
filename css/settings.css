@@ -1,0 +1,319 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+/* Start Font */
+
+/* Start Body */
+.body{
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 1500px;
+}
+.body1{
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/* Debug */
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-orangered{
+    background-color: orangered;
+}
+/* End Debug */
+
+/* Start Container */
+.container{
+     margin: 0px auto;
+     overflow: auto;
+     width: 100%;
+}
+.container1{
+    height: auto;
+    width: auto;
+}
+/*End Container*/
+
+/*Start Logo*/
+.logo{
+    text-align: center;
+    background-color: darkblue;
+}
+/*End Logo*/
+
+/*Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+    
+}
+a:hover,
+a:active {
+    color: purple;
+    text-decoration: none;
+}
+/*End Anchor / Hyperlink*/
+
+/*Start Menu Primer*/
+.menu-primer{
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow:
+        0 3px 5px -1px rgba(red, green, blue, alpha)(0,0,0,.2),
+        0 6px 0px 0 rgba(red, green, blue, alpha)(0,0,0,.14),
+        0 1px 18px 0 rgba(red, green, blue, alpha)(0,0,0,.12);
+        text-align: right;
+}
+
+.menu-primer ul {
+    margin: 0px;
+}
+
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 0 -4px;
+    
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block; 
+    letter-spacing: 1px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    
+}
+
+.menu-primer a:hover {
+    background-color:blue;
+    color: purple;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: orangered;
+    color: black;
+    text-decoration: none;
+}
+/* End menu Primer*/
+
+/* Start Box*/
+.box-heading {
+    background-color: darkgray;
+    border: 1px solid grey;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi  {
+    background-image:0;
+    color: black;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px; 
+}
+/* End Box*/
+
+/* Start Heading */
+.h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron*/
+.jumbotron {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 28px;
+    padding: 0 20px;
+}
+/* End jumbotron*/
+
+/* Start Testimonial */
+.testimonial {
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    color: purple;
+}
+/* End Testimonial */
+
+/* Start Menu Sekunder */
+
+.menu-sekunder{
+    overflow: auto;
+    padding: 10px 0;
+    font-size: 22px;
+    background-color: lightblue;
+}
+
+.menu-sekunder h4 {
+    font-size: 22px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 20px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+
+.menu-sekunder-full{
+    padding-left: 2em;
+    font-size: 22px;
+    background-color: blue;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+.menu-sekunder li img{
+    vertical-align: middle
+}
+/* End Menu Sekunder*/
+
+/* Start Copyright */
+.copyright {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Button */
+.btn{
+    border: none;
+    background-color: lightblue;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* End Button */
+
+/* Center Line */
+.centerline{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Center Line */
+
+/* Leftline */
+.leftline{
+    text-align: left;
+}
+/* Leftline */
+
+/* Start Tentang*/
+
+.tentang{
+    text-align: center;
+    font-size: 20px; 
+}
+
+.tentang h2{
+    font-size: 32px;
+}
+
+.tentang h3{
+    font-size: 22px;
+}
+
+.tentang h4{
+    font-size: 20px;
+}
+/* End Tentang */
+
+/*Centerline 2*/
+.centerline2{
+    text-align: center;
+    margin-bottom: 120px;
+}
+/*Centerline 2*/
+.centerline3{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
