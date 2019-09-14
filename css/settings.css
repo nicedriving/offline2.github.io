@@ -3,7 +3,7 @@
 /* Start Font */
 
 /* Start Body */
-.body{
+body{
     color: black;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 18px;
@@ -12,15 +12,7 @@
     padding: 0;
     background-image: url(../images/background-image.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px 1500px;
-}
-.body1{
-    color: black;
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 18px;
-    line-height: 1.5em;
-    margin: 0;
-    padding: 0;
+    background-size: 1350px 1750px;
 }
 /*End Body*/
 
@@ -57,8 +49,8 @@
      width: 100%;
 }
 .container1{
-    height: auto;
-    width: auto;
+    height: 70px;
+    width: 100%;
 }
 /*End Container*/
 
@@ -96,6 +88,7 @@ a:active {
 
 .menu-primer ul {
     margin: 0px;
+    padding: 0px;
 }
 
 .menu-primer li {
@@ -198,7 +191,7 @@ h6 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 200px;
-    color: purple;
+    color: rgba(175, 172, 0, 0.993);
 }
 /* End Testimonial */
 
@@ -238,8 +231,9 @@ h6 {
 
 .menu-sekunder-full{
     padding-left: 2em;
-    font-size: 22px;
-    background-color: blue;
+    font-size: 18px;
+    background-color: rgb(4, 177, 235);
+    color: black;
 }
 .menu-sekunder-one{
     width: 40%;
@@ -282,9 +276,14 @@ h6 {
 
 /* Leftline */
 .leftline{
-    text-align: left;
+    float: left;
 }
 /* Leftline */
+.rightline{
+    float: right;
+}
+
+/*Rightline*/
 
 /* Start Tentang*/
 
@@ -317,3 +316,29 @@ h6 {
     margin-top: 120px;
     margin-bottom: 120px;
 }
+/*Button 2*/
+.btn2{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+}
+
+/*Button 2*/
+
+/* Start Jumbotron*/
+.jumbotron2 {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.jumbotron2 h1 {
+    font-size: 32px;
+    padding: 0 20px;
+    color: gray;
+}
+.jumbotron2 h3 {
+    font-size: 28px;
+    padding: 0 20px;
+    color: red;
+}
+/* End jumbotron*/
